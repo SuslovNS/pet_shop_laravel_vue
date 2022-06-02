@@ -124,7 +124,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
+        <a href="{{route('main.index')}}" class="brand-link">
             <span class="brand-text font-weight-light">Магазин</span>
         </a>
 
@@ -138,13 +138,13 @@
                          with font-awesome or any other icon font library -->
 
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="fas fa-shopping-bag"></i>
                             <p>Заказы</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/gallery.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="fas fa-tshirt"></i>
                             <p>Продукты</p>
                         </a>
@@ -168,7 +168,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="{{route('user.index')}}" class="nav-link">
                             <i class="fas fa-users"></i>
                             <p>Пользователи</p>
                         </a>
